@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="center">
+    <div>
+
+        <div id="intro">
+            <p class = "text" >Затрудняетесь в выборе напитка в кофейне <b>Скуратов?</b></p>
+            <p class = "text" >Мы <b>без проблем</b>  поможем найти Ваш напиток.</p>
+            <p class = "text" >Только ответьте на несколько <b>вопросов!</b></p>
+
+            <button id="start"> Начнем </button>
+        </div>
+
+        <div id = "test1" class = "test">
+            <p class="text">Вам холодно или жарко?</p>
+            <div>
+                <input type="radio"  id="contactChoice1"
+                       name="q1" value="Холодно">
+                <label for="contactChoice1">Холодно</label>
+                <br>
+                <input type="radio" id="contactChoice2"
+                       name="q1" value="Горячо">
+                <label for="contactChoice2">Горячо</label>
+                <br>
+                <input type="radio" id="contactChoice3"
+                       name="q1" value="Чай">
+                <label for="contactChoice3">Мне хорошо)</label>
+                <br>
+            </div>
+        </div>
+
+        <div id = "test2" class = "test">
+            <p class="text">Любите сладкое?</p>
+            <div>
+                <input type="radio"  id="contactChoice4"
+                       name="q2" value="Milk">
+                <label for="contactChoice4">Я сладкоежка)</label>
+                <br>
+                <input type="radio" id="contactChoice5"
+                       name="q2" value="Not Milk">
+                <label for="contactChoice5">Умеренно</label>
+                <br>
+                <input type="radio" id="contactChoice6"
+                       name="q2" value="Tea">
+                <label for="contactChoice6">Не люблю(</label>
+                <br>
+            </div>
+        </div>
+
+        <div id = "test3" class = "test">
+            <p class="text">Еще вопросик!</p>
+            <div>
+                <input type="radio"  id="contactChoice7"
+                       name="q3" value="Milk">
+                <label for="contactChoice7">Холодно</label>
+                <br>
+                <input type="radio" id="contactChoice8"
+                       name="q3" value="Not Milk">
+                <label for="contactChoice8">Горячо</label>
+                <br>
+                <input type="radio" id="contactChoice9"
+                       name="q3" value="Tea">
+                <label for="contactChoice9">Мне хорошо)</label>
+                <br>
+            </div>
+        </div>
+
+        <div id = "test4" class = "test">
+            <p class="text">Последний вопросик</p>
+            <div>
+                <input type="radio"  id="contactChoice10"
+                       name="q4" value="Milk">
+                <label for="contactChoice10">Холодно</label>
+                <br>
+                <input type="radio" id="contactChoice11"
+                       name="q4" value="Not Milk">
+                <label for="contactChoice11">Горячо</label>
+                <br>
+                <input type="radio" id="contactChoice12"
+                       name="q4" value="Tea">
+                <label for="contactChoice12">Мне хорошо)</label>
+                <br>
+            </div>
+        </div>
+        <button id="next"> Дальше </button>
+        
+        <div id="final">
+            <p class="text"> Вам понравится: <b>Черный кофе!</b></p>
+            <img src="https://b1.vestifinance.ru/c/329087.640xp.jpg">
+        </div>
+        
+        
+    </div>
+</div>
+
+<script src="./js/getData.js">
+</script>
+
+
+</body>
+</html>
